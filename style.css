@@ -1,0 +1,29 @@
+.hidden{
+    display: none;
+}
+
+.box {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    min-width: 100px;
+    text-align: center;
+}
+
+.box:hover {
+    background-color: blue;
+    color: white;
+}
+
+.que {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.ans {
+    margin: auto;
+}
