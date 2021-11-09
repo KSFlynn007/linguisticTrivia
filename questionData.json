@@ -32,7 +32,7 @@
         "factoid" : ""
     },
     {
-        "question" : "A constructed language, also known as a conlang, is an artificial language, often made for TV and books. Which of the following languages is NOT a constructed langauge ?",
+        "question" : "A constructed language, also known as a conlang, is an artificial language, often made for TV and books. Which of the following languages is NOT a constructed language ?",
         "correct" : "Igbo",
         "incorrect" : [
             "Klingon", "Atlantean", "Dothraki"
@@ -45,10 +45,10 @@
         "incorrect" : [
             "Canada", "South Africa", "India"
         ],
-        "factoid" : "Zimbabwe was a whopping 16 official languages, but there are three that are the most popular - English, Shona, and Ndebele."
+        "factoid" : "Zimbabwe has a whopping 16 official languages, but there are three that are the most popular - English, Shona, and Ndebele."
     },
     {
-        "question" : "The study of sounds and sound patterns in language is refered to as what?",
+        "question" : "The study of sounds and sound patterns in language is referred to as what?",
         "correct" : "Phonology",
         "incorrect" : [
             "Phonetics", "Morphology", "Syntax"
@@ -80,7 +80,7 @@
         "factoid" : "The United States has no official language, people just assume it's English as the only one spoken at home by approximately 78% of the population. This makes English  their de facto language instead."
     },
     {
-        "question" : "Spanish contains about 4000 loan words (words taken from another langauge). Which language do these 4000 words come from?",
+        "question" : "Spanish contains about 4000 loan words (words taken from another language). Which language do these 4000 words come from?",
         "correct" : "Arabic",
         "incorrect" : [
             "French", "English", "Portuguese"
@@ -117,10 +117,10 @@
         "incorrect" : [
             "Kanji", "Katakana", "Hiragana"
         ],
-        "factoid" : "Cyrillic script is a writing system sed for various langauge across Eurasia, most commonly known as the Russian alphabet."
+        "factoid" : "Cyrillic script is a writing system used for various languages across Eurasia, most commonly known as the Russian alphabet."
     },
     {
-        "question" : "Lingustic typology classifies languages with a standard word order. English uses 'Subject + Verb + Object'. Which word order is the most uncommon?",
+        "question" : "Linguistic typology classifies languages with a standard word order. English uses 'Subject + Verb + Object'. Which word order is the most uncommon?",
         "correct" : "OSV",
         "incorrect" : [
             "VSO", "SOV", "SVO"
@@ -128,7 +128,7 @@
         "factoid" : "Object + Subject + Verb is the rarest by a significant margin. Most languages that use OSV as their default order come from the Amazon basin, such as Xavante."
     },
     {
-        "question" : "English was the first langauge spoken in outer space. True or false?",
+        "question" : "English was the first language spoken in outer space. True or false?",
         "correct" : "False",
         "incorrect" : [
             "True"
