@@ -79,6 +79,7 @@ function outputPage(){
         endGame();
     } else {
         output.innerHTML = ''
+        output.classList.add('activeOutput');
 
         let question = (game.que[game.question]);
         game.question++;
@@ -94,19 +95,21 @@ function outputPage(){
         game.eles.length = 0;
 
         const optsDiv = createNode(output, 'div', '');
+        optsDiv.classList.add('optsDiv');
         const resultsDiv = createNode(output, 'div', '');
 
         const nextDiv = createNode(output, 'div', '');
         nextDiv.style.display = 'none';
+        nextDiv.classList.add('nextDiv');
 
         answers.forEach(opt => {
             const opt1 = createNode(optsDiv, 'button', opt);
             game.eles.push(opt1);
 
             if(opt == question.correct){
-                opt1.bgC = 'rgb(75, 128, 75)';
+                opt1.bgC = '#72AC72';
             } else {
-                opt1.bgC = 'rgb(233, 109, 109)'
+                opt1.bgC = '#E96D6D'
             }
             opt1.addEventListener('click', (e) => {
                 game.eles.forEach((btnv) => {
@@ -145,7 +148,7 @@ function endGame(){
         clockDiv.style.display = 'none';
     }
 
-    h1.innerHTML = `Game Over`;
+    h1.innerHTML = `/geɪm ˈəʊvə/`;
     subtitle.style.display = 'block';
     subtitle.innerHTML = `Your remaining time was ${total} minutes.`
 

@@ -1,33 +1,102 @@
-.hidden{
-    display: none;
-}
-
-.box {
-    display: inline-block;
-    padding: 5px;
-    border: 1px solid #eee;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 5px;
-    min-width: 100px;
-    text-align: center;
-}
-
-.box:hover {
-    background-color: blue;
+body{
+    background-color: #272640;
     color: white;
-}
-
-.que {
-    font-size: 20px;
+    font-size: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    margin-bottom: 10px;
+    margin: 100px 0 0 0;
 }
 
-.ans {
+header{
+    max-width: 60%;
     margin: auto;
 }
 
-.extraInfo{
-    margin: 20px;
+button{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #ADFEFF;
+}
+
+.btn{
+    text-transform: uppercase;
+}
+
+.output{
+    padding: 10px 0;
+}
+
+.activeOutput{
+    border: 7px double white;
+    margin: 10px auto;
+    padding: 20px;
+    max-width: 60%;
+}
+
+.optsDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.optsDiv > * {
+    margin: 0 10px;
+    min-height: 60px;
+    min-width: 60px;
+}
+
+.nextDiv{
+    text-transform: uppercase;
+    justify-content: center;
+    margin: 30px 0 20px 0;
+}
+
+.nextDiv > button{
+    border: none;
+}
+
+.nextDiv > button:hover, 
+.btn:hover{
+    background-color: #C856C8;
+    color: white;
+    border: 1px solid white;
+}
+
+.playAgainBtn{
+    margin-top: 20px;
+    display: block;
+    margin: 20px auto 10px auto;
+}
+@media all and (max-width: 920px ){
+    .output {
+        max-width: 80%;
+    }
+    header {
+        max-width: 80%;
+    }
+}
+
+@media all and (max-width: 550px) {
+    .output {
+        max-width: 90%;
+    }
+    header {
+        max-width: 90%;
+    }
+    .activeOutput {
+        margin: 10px 30px;
+    }
+    .optsDiv{
+        flex-direction: column;
+    }
+    .optsDiv > button{
+        margin: 10px 0;
+        min-width: 90%;
+    }
 }
