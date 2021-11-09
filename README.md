@@ -1,2 +1,2 @@
-# personalityQuiz
+# Linguistic Trivia
  
