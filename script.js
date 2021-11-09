@@ -25,7 +25,6 @@ let timer = null;
 
 const liveMinutes = document.getElementById("minutes").textContent;
 const liveSeconds = document.getElementById("seconds").textContent;
-let total = `${liveMinutes}:${liveSeconds}`;
 
 function startTimer(){
     mySecond < 10 
@@ -44,6 +43,8 @@ function startTimer(){
             } else {
                 clearInterval(timer);
                 clockDiv.style.display = 'none';
+                subtitle.style.display = 'block';
+                subtitle.innerHTML = 'You ran out of time!'
                 endGame();
             }
         }
@@ -68,7 +69,7 @@ btn.addEventListener('click', (e) => {
     
     fetch(url).then(res => res.json())
     .then((data) => {
-        console.log(data);
+        // console.log(data);
         game.que = data;
         outputPage();
     })
@@ -85,7 +86,7 @@ function outputPage(){
         game.question++;
 
         let answers = question.incorrect;
-        console.log(answers)
+        // console.log(answers)
 
         let randomIndex = Math.floor(Math.random() * (answers.length +1));
         answers.splice(randomIndex, 0, question.correct);
@@ -124,7 +125,6 @@ function outputPage(){
                     message.textContent = 'You got it right!';
                 } else {
                     message.textContent = `Oops, the correct answer was "${question.correct}". `
-                    console.log(question.factoid)
                     if(question.factoid != ''){
                         message.textContent += question.factoid
                     }
@@ -149,13 +149,11 @@ function endGame(){
     }
 
     h1.innerHTML = `/geɪm ˈəʊvə/`;
-    subtitle.style.display = 'block';
-    subtitle.innerHTML = `Your remaining time was ${total} minutes.`
 
     if(game.count > (game.que.length/2)){
         output.innerHTML = `Well done, you got ${game.count} out of ${game.que.length} questions correct!`
     } else {
-        output.innerHTML = `Good try, you got ${game.count} out of ${game.que.length} questions correct!`
+        output.innerHTML = `Good try, you got ${game.count} out of ${game.que.length} questions correct.`
     }
 
     // in case user times out before moving to a new question
