@@ -19,8 +19,8 @@ clockDiv.style.display = 'none';
 
 const minutes = document.getElementById("minutes");
 const seconds = document.getElementById("seconds");
-let mySecond = 10;
-let myMinute = 0;
+let mySecond = 0;
+let myMinute = 15;
 let timer = null;
 
 const liveMinutes = document.getElementById("minutes").textContent;
@@ -120,7 +120,11 @@ function outputPage(){
                     game.count++;
                     message.textContent = 'You got it right!';
                 } else {
-                    message.textContent = `You got it wrong. The correct answer was "${question.correct}"`
+                    message.textContent = `Oops, the correct answer was "${question.correct}". `
+                    console.log(question.factoid)
+                    if(question.factoid != ''){
+                        message.textContent += question.factoid
+                    }
                 }
                 nextDiv.style.display = 'flex';
                 nextQue(nextDiv);
@@ -149,8 +153,6 @@ function endGame(){
         output.innerHTML = `Well done, you got ${game.count} out of ${game.que.length} questions correct!`
     } else {
         output.innerHTML = `Good try, you got ${game.count} out of ${game.que.length} questions correct!`
-        const extraInfo = createNode(output, 'div', `Want to review some concepts? <br> Check out this <a href="https://www.ipachart.com/" target="_blank">IPA Chart</a> to learn more about phonology!`)
-        extraInfo.classList.add('extraInfo')
     }
 
     // in case user times out before moving to a new question

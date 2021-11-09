@@ -1,16 +1,163 @@
 [
     {
-        "question" : "What color is the sky?",
-        "correct" : "blue",
+        "question" : "Which language has the longest alphabet?",
+        "correct" : "Cambodian",
         "incorrect" : [
-            "green", "red", "purple"
-        ]
+            "Mandarin", "Ukrainian", "Sudanese Arabic"
+        ],
+        "factoid" : "Cambodian has an alphabet with 74 characters."
     },
     {
-        "question" : "What is the oil capital of Canada?",
-        "correct" : "Fort McMurray",
+        "question" : "Which book is the most translated book in the world?",
+        "correct" : "The Bible",
         "incorrect" : [
-            "Moose Jaw", "Ottawa", "Calgary"
-        ]
+            "The Torah", "Harry Potter and the Philosopher's Stone", "On the Origin of Species"
+        ],
+        "factoid" : ""
+    },
+    {
+        "question" : "How many languages are in danger of becoming extinct?",
+        "correct" : "2400",
+        "incorrect" : [
+            "300", "1000", "3100"
+        ],
+        "factoid" : "About one language becomes extinct every two weeks."
+    },
+    {
+        "question" : "The Papuan language of Rotokas has the smallest alphabet in the world. How many letters does it have?",
+        "correct" : "11",
+        "incorrect" : [
+            "10", "13", "8"
+        ],
+        "factoid" : ""
+    },
+    {
+        "question" : "A constructed language, also known as a conlang, is an artificial language, often made for TV and books. Which of the following languages is NOT a constructed langauge ?",
+        "correct" : "Igbo",
+        "incorrect" : [
+            "Klingon", "Atlantean", "Dothraki"
+        ],
+        "factoid" : "Igbo is the principal native language of the Igbo people, an ethnic group from eastern Nigeria."
+    },
+    {
+        "question" : "Which country in the world has the most official languages?",
+        "correct" : "Zimbabwe",
+        "incorrect" : [
+            "Canada", "South Africa", "India"
+        ],
+        "factoid" : "Zimbabwe was a whopping 16 official languages, but there are three that are the most popular - English, Shona, and Ndebele."
+    },
+    {
+        "question" : "The study of sounds and sound patterns in language is refered to as what?",
+        "correct" : "Phonology",
+        "incorrect" : [
+            "Phonetics", "Morphology", "Syntax"
+        ],
+        "factoid" : ""
+    },
+    {
+        "question" : "After Paris, which city is the world's second largest French speaking city??",
+        "correct" : "Kinshasa",
+        "incorrect" : [
+            "Montreal", "Brussels", "Bordeaux"
+        ],
+        "factoid" : "Kinshasa is the capital city of the Democratic Republic of the Congo, with 67% of its population being able to communicate in French."
+    },
+    {
+        "question" : "The language of Silbo Gomero, spoken off the coast of Spain on the Canary Island of La Gomera, consists entirely of what sound?",
+        "correct" : "Whistles",
+        "incorrect" : [
+            "Clicks", "Hums", "Claps"
+        ],
+        "factoid" : "Silbo Gomero was originally used by the ancient locals to communicate through deep ravines and valleys. The language is a compulsory subject at schools in La Gomera to keep it alive."
+    },
+    {
+        "question" : "What is the official language of the United States?",
+        "correct" : "None",
+        "incorrect" : [
+            "English", "Spanish", "Cantonese"
+        ],
+        "factoid" : "The United States has no official language, people just assume it's English as the only one spoken at home by approximately 78% of the population. This makes English  their de facto language instead."
+    },
+    {
+        "question" : "Spanish contains about 4000 loan words (words taken from another langauge). Which language do these 4000 words come from?",
+        "correct" : "Arabic",
+        "incorrect" : [
+            "French", "English", "Portuguese"
+        ],
+        "factoid" : ""
+    },
+    {
+        "question" : "The languages spoken in North Korean and South Korea are different. True or false?",
+        "correct" : "True",
+        "incorrect" : [
+            "False"
+        ],
+        "factoid" : "They have distinct vocabularies and grammatical rules due to being separated for so long!"
+    },
+    {
+        "question" : "Hawaiians have over 200 words for '____'?",
+        "correct" : "Rain",
+        "incorrect" : [
+            "Ocean", "Family", "Storm"
+        ],
+        "factoid" : ""
+    },
+    {
+        "question" : "Twins, identical or fraternal, often develop what's known as a 'twin language', a language that only they can understand? What is this phenomenon called?",
+        "correct" : "Cryptophasia",
+        "incorrect" : [
+            "Geminaelingua", "Zeugma", "Paronomasia"
+        ],
+        "factoid" : ""
+    },
+    {
+        "question" : "Which of the following is NOT a writing system used in Japanese?",
+        "correct" : "Cyrillic",
+        "incorrect" : [
+            "Kanji", "Katakana", "Hiragana"
+        ],
+        "factoid" : "Cyrillic script is a writing system sed for various langauge across Eurasia, most commonly known as the Russian alphabet."
+    },
+    {
+        "question" : "Lingustic typology classifies languages with a standard word order. English uses 'Subject + Verb + Object'. Which word order is the most uncommon?",
+        "correct" : "OSV",
+        "incorrect" : [
+            "VSO", "SOV", "SVO"
+        ],
+        "factoid" : "Object + Subject + Verb is the rarest by a significant margin. Most languages that use OSV as their default order come from the Amazon basin, such as Xavante."
+    },
+    {
+        "question" : "English was the first langauge spoken in outer space. True or false?",
+        "correct" : "False",
+        "incorrect" : [
+            "True"
+        ],
+        "factoid" : "The first language spoken in outer space was Russian. When Yuri Gagarin circled the Earth in 1961, he spoke his native tongue to mission control, saying “The craft is operating normally. I can see Earth”. "
+    },
+    {
+        "question" : "Old Norse, known as the language the Vikings spoke, is almost the same as which modern Scandinavian language?",
+        "correct" : "Icelandic",
+        "incorrect" : [
+            "Norwegian", "Danish", "Swedish"
+        ],
+        "factoid" : "Icelandic has hardly changed since the Middle Ages!"
+    },
+    {
+        "question" : "The International Phonetic Alphabet is a system of notation used to standardize a representation of speech sounds? Which sound is represented by the symbol 'ʃ'? ",
+        "correct" : "SH as in SHark",
+        "incorrect" : [
+            "CH as in CHurch", "L as in Light", "DGE as in juDGE"
+        ],
+        "factoid" : ""
+    },
+    {
+        "question" : "The word 'cliché' was originally an onomatopoeia. True or false?",
+        "correct" : "True",
+        "incorrect" : [
+            "False"
+        ],
+        "factoid" : "The word came from the sound that the old printing presses made while making copies."
     }
+
 ]
