@@ -12,26 +12,5 @@
         "incorrect" : [
             "Moose Jaw", "Ottawa", "Calgary"
         ]
-    },
-    {
-        "question" : "Good Omens?",
-        "correct" : "Neil Gaima",
-        "incorrect" : [
-            "green", "red", "purple"
-        ]
-    },
-    {
-        "question" : "Fourth Question?",
-        "correct" : "blue",
-        "incorrect" : [
-            "green", "red", "purple"
-        ]
-    },
-    {
-        "question" : "Fifth question?",
-        "correct" : "blue",
-        "incorrect" : [
-            "green", "red", "purple"
-        ]
     }
 ]
